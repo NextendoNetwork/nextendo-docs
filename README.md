@@ -1,4 +1,4 @@
-<h1 align="center">Nextendo Network — Documentation</h1>
+<h1 align="center">Nextendo Network Documentation</h1>
 
 <p align="center">
   <b>How the Nextendo Network server stack fits together, and how to run your own.</b>
@@ -11,7 +11,7 @@
 ---
 
 **Nextendo Network** is a community-run replacement for a retired console online service. It lets a
-compatible client (the Nextendo emulator — a Ryujinx fork — or a real console pointed at it via DNS)
+compatible client (the Nextendo emulator, a Ryujinx fork, or a real console pointed at it via DNS)
 reach matchmaking, friends, presence, and cloud saves again, using a small set of self-hostable Go
 services that speak the same protocols the retail servers did.
 
@@ -20,9 +20,9 @@ The code lives in the per-component repositories.
 
 ## Documentation
 
-- **[ARCHITECTURE.md](ARCHITECTURE.md)** — the components, how they connect, and what happens when a
+- **[ARCHITECTURE.md](ARCHITECTURE.md)**: the components, how they connect, and what happens when a
   game goes online (the full request flow).
-- **[DEPLOYMENT.md](DEPLOYMENT.md)** — running the stack yourself: prerequisites, per-service
+- **[DEPLOYMENT.md](DEPLOYMENT.md)**: running the stack yourself: prerequisites, per-service
   configuration, DNS/TLS setup, ports, and an example `docker-compose`.
 
 ## The repositories
@@ -50,7 +50,7 @@ The code lives in the per-component repositories.
 
 ## License
 
-Documentation and code are released under the **[PolyForm Shield License 1.0.0](LICENSE.md)** — a
+Documentation and code are released under the **[PolyForm Shield License 1.0.0](LICENSE.md)**, a
 source-available license: read, use, modify, and self-host, but do not use it to provide a product
 that competes with Nextendo Network.
 
